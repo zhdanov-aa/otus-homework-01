@@ -3,6 +3,6 @@
 
 #include <vector>
 
-extern std::vector<double> SolveQuadEqu(float a, flota b, float c); 
+extern std::vector<double> SolveQuadEqu(double a, double b, double c); 
 
 #endif
