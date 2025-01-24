@@ -12,7 +12,7 @@ include_directories(/usr/include)
 
 set(SOURCE_FILES ./tests/main.cpp ./source/QuadEqu.cpp ./tests/test1.cpp)
 
-enable_testing()
+#enable_testing()
 
 find_package(Threads REQUIRED)
 find_package(GTest REQUIRED)
