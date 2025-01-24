@@ -19,7 +19,5 @@ set(SOURCE_FILES
 find_package(Threads REQUIRED)
 find_package(GTest REQUIRED)
 
-
-
 add_executable(test1 ${SOURCE_FILES})
 target_link_libraries(test1 PRIVATE ${GTEST_LIBRARIES} ${GTEST_MAIN_LIBRARIES} Threads::Threads)
